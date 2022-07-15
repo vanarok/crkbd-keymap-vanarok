@@ -169,11 +169,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [L_CUR] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX, KC_PGUP, KC_BSPC,   KC_UP,  KC_DEL, KC_PGDN,                      LA_CHNG,    AG_1,    AG_2,    AG_3, XXXXXXX, XXXXXXX,
+      XXXXXXX, KC_PGUP, KC_BSPC,   KC_UP,  KC_DEL, KC_PGDN,                      LA_CHNG,    AG_1,    AG_2,    AG_3, LA_SYNC, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
        KC_TAB,  H_HOME,  H_LEFT,  H_DOWN, H_RIGHT,  KC_END,                         AG_0,     H_4,     H_5,     H_6,    H_NO, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, CTL_PGU, CTL_PGD, XXXXXXX,                      LA_SYNC,    AG_7,    AG_8,    AG_9, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, CTL_PGU, CTL_PGD, XXXXXXX,                      XXXXXXX,    AG_7,    AG_8,    AG_9, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                            XXXXXXX, KC_ESC, SYM_ENT,  XXXXXXX,   XXXXXXX,    XXXXXXX
                                       //`--------------------------'  `--------------------------'
